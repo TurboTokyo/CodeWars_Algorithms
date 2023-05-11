@@ -68,7 +68,7 @@ void generate_spiral(int spiralSize, int** spiralMatrix) {
         for (int i = top; i <= bottom; i++) {
             spiralMatrix[i][right] = 1;
 
-            if (i == bottom && !(bottom <= top)) {
+            if (i == bottom && !(bottom < top)) {
                 spiralMatrix[i][right - 1] = 1;
             }
         }
@@ -91,7 +91,7 @@ void generate_spiral(int spiralSize, int** spiralMatrix) {
             for (int i = bottom; i >= top; i--) {
                 spiralMatrix[i][left] = 1;
 
-                if (i == top && !(bottom <= top)) {
+                if (i == top && !(bottom < top)) {
                     spiralMatrix[i][left + 1] = 1;
                 }
             }
