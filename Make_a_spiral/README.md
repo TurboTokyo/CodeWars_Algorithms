@@ -12,25 +12,30 @@ To compile and run the program:
 
 1. Clone the repository:
 
-``` git clone https://github.com/TeuerStein/CodeWars_Algorithms.git ```
+```
+git clone https://github.com/TeuerStein/CodeWars_Algorithms.git
+```
 
 
 2. Navigate to the `Make_a_spiral` directory:
 
-``` cd CodeWars_Algorithms/Make_a_spiral/ ```
+```
+cd CodeWars_Algorithms/Make_a_spiral/
+```
 
 
 3. Compile the `main.c` file:
 
-``` gcc main.c -o main ```
+```
+gcc main.c -o main
+```
 
 
 4. Run the program:
 
-``` ./main ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```
+./main
+```
 
 ## License
 This project is licensed under the MIT License.
