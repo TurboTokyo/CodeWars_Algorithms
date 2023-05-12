@@ -16,29 +16,6 @@ Each directory in the repository represents a different problem from CodeWars. I
 
 For example, the directory `Make_a_spiral` contains the solution for the "Make a Spiral" problem.
 
-## Running the Solutions
-
-To run any solution:
-
-1. Navigate into the problem directory, for example:
-    ```
-    cd CodeWars_Algorithms/Make_a_spiral/
-    ```
-
-2. Compile the C program using a compiler such as `gcc`:
-    ```
-    gcc main.c -o main
-    ```
-
-3. Run the compiled program:
-    ```
-    ./main
-    ```
-
-## Contributing
-
-Contributions are welcome. If you have a more efficient solution or a solution in a different language, feel free to open a pull request.
-
 ## License
 
 This project is licensed under the MIT License.
